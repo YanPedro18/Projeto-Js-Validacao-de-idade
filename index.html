@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+    <title>Projeto Js2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+
+<body>
+
+    <div class="estrutura-grid">
+        <!-- HEADER -->
+   
+        <header class="item header">
+            <a href="#">Logomarca</a>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+   <!-- MAIN -->
+        <main class="item main">
+            
+            <h1>Verificador de Idade</h1>
+
+            <section class="item bloco" id="bloco1">
+
+               <div class="bloco-flex">
+                   <p>Ano de nascimento:
+                        <input type="number" name="txtano1" id="txtano1" min="0">
+                   </p>
+                   <p>Sexo:
+                       <input type="radio" name="radsex1" id="mas1" checked>
+                       <label for="mas1">Masculino</label>
+                       <input type="radio" name="radsex1" id="fem1" checked>
+                       <label for="fem1">Feminino</label>
+                   </p>
+                   <p>
+                       <input type="button" value="Verificar" onclick="verificar()">
+                   </p>                   
+               </div>  
+
+               <div id="res1">
+               Preencha os dados acima para ver o resultado!
+            </div>
+            
+            </section>
+            <h2>@YanPedro</h2>
+
+        </main>
+        
+    </div>
+
+
+    <footer class="item footer"><h2>&copy;YanPedro</h2></footer>
+    <script src="js/script.js"> </script>
+</body>
+</html>
